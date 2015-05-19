@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -22,16 +22,68 @@
 				position: relative;
 		        margin: 0 auto;
 		        padding: 0;
-		        font-family: ;
 			}
-			header { 
+			#design_case {
+		        margin: 0 auto;
+		        padding: 0;
+		        margin-top: 80px;
+			}
+			#design_case a {
+				text-decoration: none;
+			}
+			.design {
+				width: 90%;
+				height: 180px;
+				background-color: black;
+				margin: 30px auto;
+		        padding: 40px 0;
 		        text-align: center;
-		        font-family: 'Lobster', cursive;
-		        font-size: 3em;
-		    }
-		    header h1 {
-		    	margin-top: 200px;
-		    }
+			}
+			.design p {
+				color: white;
+				margin-top: 193px;
+				font-family: Khand;
+			}
+			.d_name {
+				width: 160px;
+				color: white;
+				background-color: black;
+				position: absolute;
+				right: 5%;
+				bottom: 10px;
+				display: inline-block;
+				opacity: 0.5;
+			}
+			#d1 {
+				background: url('songhanbin_d1.jpg');
+				background-repeat: no-repeat;
+				background-color: black;
+				background-position: center, center, 0% 0%;
+			}
+			#d2 {
+				background: url('songhanbin_d2.jpg');
+				background-repeat: no-repeat;
+				background-color: black;
+				background-position: center, center, 0% 0%;
+			}
+			#d3 {
+				background: url('songhanbin_d3.jpg');
+				background-repeat: no-repeat;
+				background-color: black;
+				background-position: center, center, 0% 0%;
+			}
+			#d4 {
+				background: url('songhanbin_d4.jpg');
+				background-repeat: no-repeat;
+				background-color: black;
+				background-position: center, center, 0% 0%;
+			}
+			#my {
+				background: url('my.jpg');
+				background-repeat: no-repeat;
+				background-color: black;
+				background-position: center, center, 0% 0%;
+			}
 		</style>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js">
 	  	</script>
@@ -41,6 +93,7 @@
 	<body>
 			<svg  id="back" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="70.188px" height="45.316px" viewBox="3.5094 -4.5316 70.188 61.1766" enable-background="new 0 0 70.188 45.316" xml:space="preserve">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M45.871,9.146l-2.829-2.829L27.109,21.264c-0.565,0.377-1.234,0.94-1.234,1.513  c0,0.556,0.601,1.108,1.144,1.5l16.023,15.032l2.829-2.829L31.302,22.812L45.871,9.146z"/></svg>
+		
 		<nav>
 			<h1><a href="index.html"><!--우리 쇼핑몰 이름 부분-->arttoo</a></h1>
 			<ul>
@@ -69,8 +122,34 @@
 				<rect x="20.498" y="57.934" fill="#FFFFFF" width="44.043" height="3.62"/>
 			</g>
 		</svg>
-		<header>
-			<h1>arttoo</h1><!--우리 쇼핑몰 로고/이름 부분-->
-		</header>
+		<div id="page_name">
+			<h2>design</h2>
+		</div>
+		<div id="design_case">
+			<a href="d1_songhanbin.html">
+				<div class="design" id="d1">
+					<p>flower girl</p>
+				</div>
+			</a>
+			<a href="d2_songhanbin.html">
+				<div class="design" id="d2">
+					<p>giraffe</p>
+				</div>
+			</a>
+			<a href="d3_songhanbin.html">
+				<div class="design" id="d3">
+					<p>forest</p>
+				</div>
+			</a>
+			<a href="d4_songhanbin.html">
+				<div class="design" id="d4">
+					<p>simple hand signal</p>
+				</div>
+			</a>
+			<a href="order.html">
+				<div class="design" id="my">
+				</div>
+			</a>
+		</div>
 	</body>
 </html>
